@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Yang Dan Ni",
+    "username": "杨丹妮",
+    "height": 173,
+    "bust": 83,
+    "waist": 65,
+    "hips": 90,
+    "shoes": 39,
+    "pictures": [
+      "https://img.imgdb.cn/item/607afb998322e6675c665200.jpg",
+      "https://img.imgdb.cn/item/607afb998322e6675c665204.jpg",
+      "https://img.imgdb.cn/item/607afb998322e6675c66520d.jpg",
+      "https://img.imgdb.cn/item/607afb998322e6675c665218.jpg",
+      "https://img.imgdb.cn/item/607afb998322e6675c665221.jpg",
+      "https://img.imgdb.cn/item/607afbb58322e6675c669084.jpg",
+      "https://img.imgdb.cn/item/607afbb58322e6675c66908b.jpg"
+    ]
+  },
+  "msg": "返回成功"
+}

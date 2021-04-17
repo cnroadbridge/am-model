@@ -1,0 +1,15 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Ba Yue",
+    "username": "八月",
+    "height": 183,
+    "bust": 79,
+    "waist": 68,
+    "hips": 80,
+    "shoes": 42,
+    "pictures": []
+  },
+  "msg": "返回成功"
+}

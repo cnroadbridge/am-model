@@ -1,0 +1,41 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "id": 1,
+      "modelId": 9,
+      "name": "Fu Yan Wei",
+      "username": "傅艳玮",
+      "url": "https://img.imgdb.cn/item/607afa5b8322e6675c634c4d.jpg"
+    },
+    {
+      "id": 2,
+      "modelId": 10,
+      "name": "Yang Dan Ni",
+      "username": "杨丹妮",
+      "url": "https://img.imgdb.cn/item/607afb998322e6675c665200.jpg"
+    },
+    {
+      "id": 3,
+      "modelId": 11,
+      "name": "Shen Xu",
+      "username": "沈旭",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "modelId": 12,
+      "name": "Wei Yin",
+      "username": "伟赢",
+      "url": ""
+    },
+    {
+      "id": 5,
+      "modelId": 13,
+      "name": "Yang Dan Ni",
+      "username": "杨丹妮",
+      "url": ""
+    }
+  ],
+  "msg": "返回成功"
+}

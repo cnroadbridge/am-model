@@ -1,0 +1,15 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Shen Xu",
+    "username": "沈旭",
+    "height": 175,
+    "bust": 78,
+    "waist": 63,
+    "hips": 85,
+    "shoes": 38,
+    "pictures": []
+  },
+  "msg": "返回成功"
+}

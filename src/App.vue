@@ -1,32 +1,67 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <start-up v-if="isFullPage"></start-up>
+    <com-layout v-else></com-layout>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+import _ from 'lodash'
+import title from '@config/title'
+import StartUp from '@views/StartUp.vue'
+import ComLayout from '@components/common/Layout.vue'
+import { mapState } from 'vuex'
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
+export default {
+  name: 'App',
+  components: {
+    StartUp,
+    ComLayout
+  },
+  data() {
+    return {
+      isFullPage: true
+    }
+  },
+  created() {
+    const debouncedComputeRootFontSize = _.debounce(this.computeRootFontSize, 1000)
+    document.addEventListener('DOMContentLoaded', debouncedComputeRootFontSize)
+    window.addEventListener(
+      'orientationchange' in window ? 'orientationchange' : 'resize',
+      debouncedComputeRootFontSize
+    )
+    this.computeRootFontSize()
+  },
+  computed: {
+    ...mapState(['language']),
+    languageTitle() {
+      return title[this.language]
+    }
+  },
+  methods: {
+    computeRootFontSize() {
+      const documentElement = document.documentElement
+      let clientWidth = documentElement.clientWidth
+      clientWidth = clientWidth < 750 ? clientWidth : 750
+      documentElement.style.fontSize = clientWidth / 7.5 + 'px'
+    }
+  },
+  watch: {
+    $route(to, from) {
+      const { name } = to
+      document.title = this.languageTitle[name]
+      this.isFullPage = name === 'StartUp'
+    },
+    language(newLanguage) {
+      const { name } = this.$route
+      document.title = this.languageTitle[name]
     }
   }
+}
+</script>
+<style lang="scss">
+#app {
+  width: 100%;
+  height: 100%;
 }
 </style>

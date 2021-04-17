@@ -1,0 +1,22 @@
+{
+	"code": 1,
+	"data": [
+		{
+			"id": 1,
+			"url": "https://img.imgdb.cn/item/607afee18322e6675c6e0c0b.jpg"
+		},
+		{
+			"id": 2,
+			"url": "https://img.imgdb.cn/item/607afee18322e6675c6e0c0e.jpg"
+		},
+		{
+			"id": 3,
+			"url": "https://img.imgdb.cn/item/607afee18322e6675c6e0c23.jpg"
+		},
+		{
+			"id": 4,
+			"url": "https://img.imgdb.cn/item/607afee18322e6675c6e0c2f.jpg"
+		}
+	],
+	"msg": "返回成功"
+}

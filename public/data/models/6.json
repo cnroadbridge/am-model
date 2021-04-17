@@ -1,0 +1,26 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Sun Hao Tian",
+    "username": "孙浩天",
+    "height": 185,
+    "bust": 91,
+    "waist": 65,
+    "hips": 90,
+    "shoes": 43,
+    "pictures": [
+      "https://img.imgdb.cn/item/607af84a8322e6675c5e0c1e.jpg",
+      "https://img.imgdb.cn/item/607af84a8322e6675c5e0c23.jpg",
+      "https://img.imgdb.cn/item/607af84a8322e6675c5e0c2a.jpg",
+      "https://img.imgdb.cn/item/607af84a8322e6675c5e0c30.jpg",
+      "https://img.imgdb.cn/item/607af84a8322e6675c5e0c38.jpg",
+      "https://img.imgdb.cn/item/607af8668322e6675c5e56e4.jpg",
+      "https://img.imgdb.cn/item/607af8668322e6675c5e56f3.jpg",
+      "https://img.imgdb.cn/item/607af8668322e6675c5e56fd.jpg",
+      "https://img.imgdb.cn/item/607af8668322e6675c5e571b.jpg",
+      "https://img.imgdb.cn/item/607af8668322e6675c5e5743.jpg"
+    ]
+  },
+  "msg": "返回成功"
+}

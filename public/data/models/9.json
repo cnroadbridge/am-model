@@ -1,0 +1,21 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Fu Yan Wei",
+    "username": "傅艳玮",
+    "height": 174,
+    "bust": 81,
+    "waist": 61,
+    "hips": 92,
+    "shoes": 39,
+    "pictures": [
+      "https://img.imgdb.cn/item/607afa5b8322e6675c634c4d.jpg",
+      "https://img.imgdb.cn/item/607afa5b8322e6675c634c54.jpg",
+      "https://img.imgdb.cn/item/607afa5b8322e6675c634c5f.jpg",
+      "https://img.imgdb.cn/item/607afa5b8322e6675c634c6e.jpg",
+      "https://img.imgdb.cn/item/607afa5b8322e6675c634c7e.jpg"
+    ]
+  },
+  "msg": "返回成功"
+}

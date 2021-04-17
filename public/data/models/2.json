@@ -1,0 +1,23 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Zhou Qi Fan",
+    "username": "周霁帆",
+    "height": 185,
+    "bust": 91,
+    "waist": 65,
+    "hips": 90,
+    "shoes": 43,
+    "pictures": [
+      "https://img.imgdb.cn/item/607af2f28322e6675c509d6e.jpg",
+      "https://img.imgdb.cn/item/607af2f28322e6675c509d73.jpg",
+      "https://img.imgdb.cn/item/607af2f28322e6675c509d78.jpg",
+      "https://img.imgdb.cn/item/607af2f28322e6675c509d82.jpg",
+      "https://img.imgdb.cn/item/607af2f28322e6675c509d8d.jpg",
+      "https://img.imgdb.cn/item/607af3078322e6675c50d282.jpg",
+      "https://img.imgdb.cn/item/607af3078322e6675c50d292.jpg"
+    ]
+  },
+  "msg": "返回成功"
+}

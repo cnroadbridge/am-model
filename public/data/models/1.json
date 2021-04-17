@@ -1,0 +1,26 @@
+{
+    "code": 1,
+    "data": {
+        "id": 1,
+        "name": "Zhou Hong",
+        "username": "周弘",
+        "height": 188,
+        "bust": 84,
+        "waist": 74,
+        "hips": 94,
+        "shoes": 43,
+        "pictures": [
+            "https://img.imgdb.cn/item/607aed368322e6675c432c3e.jpg",
+            "https://img.imgdb.cn/item/607aed368322e6675c432c46.jpg",
+            "https://img.imgdb.cn/item/607aed368322e6675c432c4b.jpg",
+            "https://img.imgdb.cn/item/607aed368322e6675c432c53.jpg",
+            "https://img.imgdb.cn/item/607aed368322e6675c432c5b.jpg",
+            "https://img.imgdb.cn/item/607aed7a8322e6675c43ccbe.jpg",
+            "https://img.imgdb.cn/item/607aed7a8322e6675c43ccc0.jpg",
+            "https://img.imgdb.cn/item/607aed7a8322e6675c43ccc6.jpg",
+            "https://img.imgdb.cn/item/607aed7a8322e6675c43ccca.jpg",
+            "https://img.imgdb.cn/item/607aed7b8322e6675c43ccd7.jpg"
+        ]
+    },
+    "msg": "返回成功"
+}

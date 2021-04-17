@@ -1,0 +1,15 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Zhi Li",
+    "username": "智利",
+    "height": 188,
+    "bust": 96,
+    "waist": 70,
+    "hips": 94,
+    "shoes": 44,
+    "pictures": []
+  },
+  "msg": "返回成功"
+}

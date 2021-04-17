@@ -1,0 +1,24 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Wang Zhen",
+    "username": "王震",
+    "height": 186,
+    "bust": 93,
+    "waist": 70,
+    "hips": 92,
+    "shoes": 43,
+    "pictures": [
+      "https://img.imgdb.cn/item/607af4868322e6675c54d9ce.jpg",
+      "https://img.imgdb.cn/item/607af4868322e6675c54d9d2.jpg",
+      "https://img.imgdb.cn/item/607af4868322e6675c54d9d8.jpg",
+      "https://img.imgdb.cn/item/607af4868322e6675c54d9e0.jpg",
+      "https://img.imgdb.cn/item/607af4868322e6675c54d9ea.jpg",
+      "https://img.imgdb.cn/item/607af4e88322e6675c55d8bc.jpg",
+      "https://img.imgdb.cn/item/607af4e88322e6675c55d8c2.jpg",
+      "https://img.imgdb.cn/item/607af4e88322e6675c55d8c9.jpg"
+    ]
+  },
+  "msg": "返回成功"
+}

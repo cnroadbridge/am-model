@@ -1,0 +1,15 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Wang Li Bing",
+    "username": "王立彬",
+    "height": 187,
+    "bust": 95,
+    "waist": 72,
+    "hips": 98,
+    "shoes": 43,
+    "pictures": []
+  },
+  "msg": "返回成功"
+}

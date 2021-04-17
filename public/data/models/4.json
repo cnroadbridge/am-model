@@ -1,0 +1,19 @@
+{
+  "code": 1,
+  "data": {
+    "id": 1,
+    "name": "Yang Han Yu",
+    "username": "杨阚宇",
+    "height": 184,
+    "bust": 86,
+    "waist": 68,
+    "hips": 91,
+    "shoes": 43,
+    "pictures": [
+      "https://img.imgdb.cn/item/607af5db8322e6675c58460b.jpg",
+      "https://img.imgdb.cn/item/607af5db8322e6675c584613.jpg",
+      "https://img.imgdb.cn/item/607af5db8322e6675c584618.jpg"
+    ]
+  },
+  "msg": "返回成功"
+}
