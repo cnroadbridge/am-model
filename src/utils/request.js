@@ -3,7 +3,7 @@ import qs from 'qs'
 
 // 1. create axios instance
 const instance = axios.create({
-  baseURL: process.env.VUE_APP_BASE_URL,
+  // baseURL: process.env.VUE_APP_BASE_URL,
   withCredentials: true,
   timeout: 5000
 })
@@ -30,14 +30,13 @@ instance.interceptors.response.use(
   response => {
     const res = response.data
     if (response.status !== 200 || res.code !== 1) {
-      alert('服务器繁忙')
       return Promise.reject(new Error(res.message || 'Error'))
     }
-    return res
+    return Promise.resolve(res)
   },
   error => {
     console.log('err', error)
-    alert(error.message)
+    return Promise.reject(error.message)
   }
 )
 

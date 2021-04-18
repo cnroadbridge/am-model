@@ -48,8 +48,10 @@ export default {
   },
   async created() {
     const { data: banners } = await getModels('carousel')
+    console.log(banners)
     this.banners = banners
     const { data } = await getModels('featured-models')
+    console.log(data)
     this.featuredModelsData = data
   },
   computed: {
